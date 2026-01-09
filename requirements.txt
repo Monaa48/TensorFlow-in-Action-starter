@@ -1,0 +1,10 @@
+# Minimal, adjust as needed per chapter
+jupyterlab
+notebook
+numpy
+pandas
+matplotlib
+scikit-learn
+tqdm
+# Install the TensorFlow version that matches your book/code environment
+tensorflow
