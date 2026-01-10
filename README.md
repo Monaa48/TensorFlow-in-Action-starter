@@ -2,11 +2,22 @@
 
 > **Goal**: Reproduce the code from each chapter of **_TensorFlow in Action_ (Thushan Ganegedara)** and add structured explanations + chapter summaries in Jupyter notebooks.
 
+## Important note about datasets
+
+Many dataset links referenced in the book are no longer accessible. To keep the notebooks runnable, this repository mirrors datasets on a best-effort basis (uploaded to GitHub) and/or provides replacement download instructions inside each notebook.
+
+**If you hit a missing dataset error:**
+1. Check the corresponding chapter notebook — there should be a clearly marked **“Dataset / Download”** cell or section.
+2. Look for a local `data/` folder (if present) and place the dataset there using the path expected by the notebook.
+3. If the notebook points to a GitHub-hosted copy, download from there and keep the original folder/file names unchanged.
+
+> Tip: keep dataset paths consistent across machines by using a single `DATA_DIR` variable (e.g., `data/`) inside notebooks.
+
 ## Repository Structure
 
 - `notebooks/` → 1 notebook per chapter (code reproduction + theory + summary)
 - `src/` → helper modules (reusable functions/classes)
-- `data/` → datasets (keep large files out of Git; use links + scripts)
+- `data/` → datasets (small/medium files may live here; larger ones should be linked)
 - `assets/` → figures/images used in README or notebooks
 - `scripts/` → utility scripts (e.g., download data, run checks)
 
@@ -28,7 +39,7 @@ jupyter lab
 
 ## Chapters
 
-> Replace the table below with the real chapter list from the book.
+The chapter list is maintained progressively as notebooks are completed.
 
 | Chapter | Notebook | Key Topics (high level) | Status |
 |---|---|---|---|
@@ -55,4 +66,3 @@ Each chapter notebook should include:
 ## Reference
 
 - Thushan Ganegedara, *TensorFlow in Action*.
-
