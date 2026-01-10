@@ -39,12 +39,24 @@ jupyter lab
 
 ## Chapters
 
-The chapter list is maintained progressively as notebooks are completed.
-
-| Chapter | Notebook | Key Topics (high level) | Status |
-|---|---|---|---|
-| 01 | `notebooks/Chapter01.ipynb` | ... | ⬜ |
-| 02 | `notebooks/Chapter02.ipynb` | ... | ⬜ |
+| Chapter | Notebook | Status |
+|---:|---|:---:|
+| 01 | `notebooks/Ch01_The_amazing_world_of_TensorFlow.ipynb` | ✅ |
+| 02 | `notebooks/Ch02_TensorFlow_2.ipynb` | ✅ |
+| 03 | `notebooks/Ch03_Keras_and_data_retrieval_in_TF2.ipynb` | ✅ |
+| 04 | `notebooks/Ch04_Dipping_toes_in_deep_learning.ipynb` | ✅ |
+| 05 | `notebooks/Ch05_State_of_the_art_in_deep_learning_Transformers.ipynb` | ✅ |
+| 05 | `notebooks/Ch05_State_of_the_art_in_deep_learning_Transformers_fixed.ipynb` | ✅ |
+| 06 | `notebooks/Ch06_Teaching_machines_to_see_Image_classification_with_CNNs.ipynb` | ✅ |
+| 07 | `notebooks/Ch07_Teaching_machines_to_see_better_Improving_CNNs_and_making_them_confess.ipynb` | ✅ |
+| 08 | `notebooks/Ch08_Telling_things_apart_Image_segmentation.ipynb` | ✅ |
+| 09 | `notebooks/Ch09_Natural_language_processing_with_TensorFlow_Sentiment_analysis.ipynb` | ✅ |
+| 10 | `notebooks/Ch10_Natural_language_processing_with_TensorFlow_Language_modeling.ipynb` | ✅ |
+| 11 | `notebooks/Ch11_Sequence_to_sequence_learning_Part_1.ipynb` | ✅ |
+| 12 | `notebooks/Ch12_Sequence_to_sequence_learning_Part_2_Attention.ipynb` | ✅ |
+| 13 | `notebooks/Ch13_Transformers.ipynb` | ✅ |
+| 14 | `notebooks/Ch14_TensorBoard_Big_brother_of_TensorFlow.ipynb` | ✅ |
+| 15 | `notebooks/Ch15_TFX_MLOps_and_deploying_models_with_TensorFlow.ipynb` | ✅ |
 
 ## Notebook Standard (What each notebook contains)
 
